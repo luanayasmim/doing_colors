@@ -1,0 +1,9 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+#colorbox{
+    height: 250px; 
+	width: 300px;
+    margin-top: 3%;
+}

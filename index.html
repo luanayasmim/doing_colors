@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importações -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>Cores</title>
+</head>
+<body>
+    <h1 class="title">Mistura de cores</h1>
+    <div class="selectColor">
+        <h2 class="title">Vermelho</h2>
+        <input type="range" id="range_red" min="0" max="255" step="1" value="0">
+        <input type="text" id="txt_red" value="0" readonly disabled>
+        
+        <h2 class="title">Verde</h2>
+        <input type="range" id="range_green" min="0" max="255" step="1" value="0">
+        <input type="text" id="txt_green" value="0" readonly disabled>
+        
+        <h2 class="title">Azul</h2>
+        <input type="range" id="range_blue" min="0" max="255" step="1" value="0">
+        <input type="text" id="txt_blue" value="0" readonly disabled>
+        
+        <div id="colorbox"></div>
+    </div>
+</body>
+</html>
